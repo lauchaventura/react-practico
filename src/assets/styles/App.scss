@@ -1,5 +1,15 @@
+@import "./Vars.scss";
+@import "./Media.scss";
+
 body {
   margin: 0;
-  background-color: red;
-  color: white;
+  background: linear-gradient($color-up, $color_down);
+  font-family: $theme-font;
+}
+
+* {
+  box-sizing: border-box;
+}
+::-webkit-scrollbar {
+  display: none;
 }
